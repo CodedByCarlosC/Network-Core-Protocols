@@ -21,6 +21,11 @@ These protocols form the foundation of web traffic, file transfers, and email co
 - Reviewed DNS behavior over UDP/TCP port 53
 - Used `nslookup` to examine DNS queries and responses
 
+![image alt](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/dnssec%20me.PNG)
+![image alt](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/dnssec%20signed.PNG)
+
+![image alt](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/nslookup.PNG)
+
 ---
 
 ### 🔹 WHOIS
@@ -28,6 +33,8 @@ These protocols form the foundation of web traffic, file transfers, and email co
 - Identified registrant, registrar, and record timestamps
 - Discussed privacy protection services and their impact
 - Used WHOIS as an OSINT-style information source
+
+![image ult](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/whois%20me.PNG)
 
 ---
 
@@ -52,6 +59,8 @@ These protocols form the foundation of web traffic, file transfers, and email co
 - Analyzed FTP traffic using Wireshark
 - Default port: TCP 21
 
+![image alt](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/ftp%20file%20transfer.PNG)
+
 ---
 
 ### 🔹 Simple Mail Transfer Protocol (SMTP)
@@ -64,6 +73,8 @@ These protocols form the foundation of web traffic, file transfers, and email co
 - Used `telnet` to manually send an email
 - Default port: TCP 25
 
+![image ult](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/SENDING%20EMAIL%20TELNET.PNG)
+
 ---
 
 ### 🔹 POP3 vs IMAP
@@ -74,6 +85,8 @@ These protocols form the foundation of web traffic, file transfers, and email co
 - Commands explored:
   - USER, PASS, STAT, LIST, RETR, DELE
 - Default port: TCP 110
+
+![image ult](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/POP3.PNG)
 
 **IMAP**
 - Designed for synchronized mailboxes across devices
@@ -119,11 +132,3 @@ Understanding core protocols is foundational for:
 
 This lab strengthened my ability to reason about network traffic and identify normal vs suspicious behavior.
 
----
-
-## 🚀 Next Steps
-
-- Secure protocol variants (TLS, HTTPS, SMTPS, IMAPS)
-- Packet analysis and detection use cases
-- SIEM-based network monitoring
-- Network security controls and hardening
