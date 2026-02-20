@@ -24,6 +24,15 @@ These protocols form the foundation of web traffic, file transfers, and email co
 ![image alt](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/dnssec%20me.PNG)
 ![image alt](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/dnssec%20signed.PNG)
 
+Beyond the lab exercises, I applied this knowledge to my own deployed portfolio website by:
+
+- Reviewing and updating my domain's DNS configuration
+- Verifying DNS propagation
+- Inspecting DNSSEC status
+- Validating A and CNAME records for proper resolution
+
+This practical application reinforced how DNS configuration directly impacts website availability, trust, and security.
+
 ![image alt](https://github.com/CodedByCarlosC/Network-Core-Protocols/blob/5e4cb2df8454b94f90e203b0d906d6019a02dac8/nslookup.PNG)
 
 ---
